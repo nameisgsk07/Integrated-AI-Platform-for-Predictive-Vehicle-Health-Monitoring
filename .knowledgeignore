@@ -1,0 +1,21 @@
+# Global ignore rules, applied across every knowledge source.
+# Same syntax as .gitignore. Per-source .gitignore and .knowledgeignore
+# files (anywhere inside a source folder) are ALSO respected automatically
+# -- this file is only for rules you want everywhere, regardless of source.
+#
+# Copy this to .knowledgeignore at the project root to activate it.
+
+# Personal / sensitive
+**/private/
+**/*.secret.*
+
+# Large binary/media that slips past extension filtering in odd folders
+*.zip
+*.tar.gz
+*.mp4
+*.mov
+*.csv
+*.jpg
+*.jpeg
+*.png
+*.json

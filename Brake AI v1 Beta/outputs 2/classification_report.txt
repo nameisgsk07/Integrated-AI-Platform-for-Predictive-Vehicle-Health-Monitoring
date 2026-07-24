@@ -1,0 +1,25 @@
+=== Brake Fade Risk - Classification Report ===
+              precision    recall  f1-score   support
+
+        High       1.00      0.15      0.27        13
+         Low       0.93      0.98      0.95      4182
+      Medium       0.82      0.62      0.71       805
+
+    accuracy                           0.92      5000
+   macro avg       0.92      0.59      0.64      5000
+weighted avg       0.91      0.92      0.91      5000
+
+
+=== Maintenance Action - Classification Report ===
+                   precision    recall  f1-score   support
+
+Immediate Service       0.95      0.97      0.96       734
+     Inspect Soon       0.92      0.91      0.92       991
+        No Action       0.96      0.96      0.96      1009
+     Replace Disc       0.90      0.83      0.86       784
+    Replace Fluid       0.91      0.90      0.90       509
+     Replace Pads       0.89      0.94      0.91       973
+
+         accuracy                           0.92      5000
+        macro avg       0.92      0.92      0.92      5000
+     weighted avg       0.92      0.92      0.92      5000

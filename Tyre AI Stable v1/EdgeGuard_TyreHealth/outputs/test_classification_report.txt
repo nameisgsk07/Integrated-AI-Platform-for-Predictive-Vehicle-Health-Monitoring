@@ -1,0 +1,22 @@
+EdgeGuard AI - Tyre Health Prediction - Test Set Report
+============================================================
+
+Overall Accuracy  : 95.70%
+Precision (macro) : 95.54%
+Recall (macro)    : 95.88%
+F1 Score (macro)  : 95.67%
+
+Confusion Matrix:
+Classes order: ['Defective', 'Good']
+[[97  6]
+ [ 2 81]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Defective     0.9798    0.9417    0.9604       103
+        Good     0.9310    0.9759    0.9529        83
+
+    accuracy                         0.9570       186
+   macro avg     0.9554    0.9588    0.9567       186
+weighted avg     0.9580    0.9570    0.9571       186

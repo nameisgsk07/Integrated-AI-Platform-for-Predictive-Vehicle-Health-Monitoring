@@ -1,0 +1,118 @@
+{
+  "brake_health_mae": 2.4964294544639065,
+  "brake_health_rmse": 3.2511440317594302,
+  "brake_health_r2": 0.9937375467199642,
+  "remaining_pad_life_mae": 1922.3269511180877,
+  "remaining_pad_life_rmse": 2637.804551189073,
+  "remaining_pad_life_r2": 0.9816340169976658,
+  "fade_risk_accuracy": 0.9708,
+  "fade_risk_precision": 0.9714764521370493,
+  "fade_risk_recall": 0.9708,
+  "fade_risk_f1": 0.9708402664575504,
+  "fade_risk_confusion_matrix": [
+    [
+      407,
+      0,
+      0,
+      0,
+      11
+    ],
+    [
+      0,
+      2254,
+      0,
+      32,
+      13
+    ],
+    [
+      0,
+      0,
+      3235,
+      98,
+      0
+    ],
+    [
+      0,
+      34,
+      5,
+      2530,
+      0
+    ],
+    [
+      30,
+      69,
+      0,
+      0,
+      1282
+    ]
+  ],
+  "maintenance_action_accuracy": 0.9677,
+  "maintenance_action_precision": 0.9691462952958433,
+  "maintenance_action_recall": 0.9677,
+  "maintenance_action_f1": 0.9680285077741342,
+  "maintenance_action_confusion_matrix": [
+    [
+      3177,
+      73,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      5,
+      330,
+      0,
+      0,
+      0,
+      12,
+      73
+    ],
+    [
+      0,
+      0,
+      1589,
+      2,
+      0,
+      13,
+      3
+    ],
+    [
+      0,
+      0,
+      72,
+      3875,
+      3,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      3,
+      10,
+      113,
+      3,
+      0
+    ],
+    [
+      0,
+      2,
+      18,
+      0,
+      0,
+      296,
+      0
+    ],
+    [
+      0,
+      5,
+      17,
+      0,
+      0,
+      3,
+      297
+    ]
+  ]
+}

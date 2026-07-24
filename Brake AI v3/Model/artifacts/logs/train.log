@@ -1,0 +1,154 @@
+2026-07-11 22:19:46 | INFO     | edgeguard.train | Loading dataset from: D:\Tata Hackathon\Brake AI v3\dataset\brake_dataset.csv
+2026-07-11 22:24:35 | INFO     | edgeguard.train | Loading dataset from: D:\Tata Hackathon\Brake AI v3\dataset\brake_dataset.csv
+2026-07-12 08:41:10 | INFO     | edgeguard.train | Loading dataset from: D:\Tata Hackathon\Brake AI v3\dataset\brake_dataset.csv
+2026-07-12 08:42:35 | INFO     | edgeguard.train | Loading dataset from: D:\Tata Hackathon\Brake AI v3\dataset\brake_dataset.csv
+2026-07-12 08:42:36 | INFO     | edgeguard.train | Dataset cleaning report: original=100000, duplicates_removed=0, missing_removed=0, range_violations_removed=0, plausibility_violations_removed=20730, outliers_clipped=17714, final=79270
+2026-07-12 08:42:36 | INFO     | edgeguard.train | Split sizes -> train: 55489, val: 11890, test: 11891
+2026-07-12 08:42:36 | INFO     | edgeguard.train | Fitted preprocessors saved to D:\Tata Hackathon\Brake AI v3\Model\artifacts\scalers
+2026-07-12 08:42:36 | INFO     | edgeguard.train | CUDA available. Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2026-07-12 08:42:39 | INFO     | edgeguard.train | Starting fresh training run (no checkpoint loaded).
+2026-07-12 08:42:55 | INFO     | edgeguard.train | Epoch 1/200 | train_loss=1.08475 val_loss=0.35852 | val_fade_acc=0.961 val_maint_acc=0.922 | lr=3.00e-04 | 16.6s
+2026-07-12 08:42:55 | INFO     | edgeguard.train |   -> New best validation loss: 0.358516. Best checkpoint saved.
+2026-07-12 08:43:11 | INFO     | edgeguard.train | Epoch 2/200 | train_loss=0.51144 val_loss=0.25792 | val_fade_acc=0.970 val_maint_acc=0.945 | lr=3.00e-04 | 15.3s
+2026-07-12 08:43:11 | INFO     | edgeguard.train |   -> New best validation loss: 0.257924. Best checkpoint saved.
+2026-07-12 08:43:29 | INFO     | edgeguard.train | Epoch 3/200 | train_loss=0.41315 val_loss=0.21053 | val_fade_acc=0.972 val_maint_acc=0.957 | lr=3.00e-04 | 18.4s
+2026-07-12 08:43:29 | INFO     | edgeguard.train |   -> New best validation loss: 0.210530. Best checkpoint saved.
+2026-07-12 08:43:46 | INFO     | edgeguard.train | Epoch 4/200 | train_loss=0.35826 val_loss=0.20830 | val_fade_acc=0.963 val_maint_acc=0.956 | lr=3.00e-04 | 16.8s
+2026-07-12 08:43:46 | INFO     | edgeguard.train |   -> New best validation loss: 0.208305. Best checkpoint saved.
+2026-07-12 08:44:05 | INFO     | edgeguard.train | Epoch 5/200 | train_loss=0.31437 val_loss=0.17699 | val_fade_acc=0.968 val_maint_acc=0.965 | lr=3.00e-04 | 19.0s
+2026-07-12 08:44:05 | INFO     | edgeguard.train |   -> New best validation loss: 0.176994. Best checkpoint saved.
+2026-07-12 08:44:23 | INFO     | edgeguard.train | Epoch 6/200 | train_loss=0.28917 val_loss=0.16174 | val_fade_acc=0.974 val_maint_acc=0.967 | lr=2.99e-04 | 18.3s
+2026-07-12 08:44:23 | INFO     | edgeguard.train |   -> New best validation loss: 0.161745. Best checkpoint saved.
+2026-07-12 08:44:43 | INFO     | edgeguard.train | Epoch 7/200 | train_loss=0.26517 val_loss=0.16438 | val_fade_acc=0.975 val_maint_acc=0.962 | lr=2.99e-04 | 19.8s
+2026-07-12 08:45:02 | INFO     | edgeguard.train | Epoch 8/200 | train_loss=0.24803 val_loss=0.15118 | val_fade_acc=0.975 val_maint_acc=0.967 | lr=2.99e-04 | 18.5s
+2026-07-12 08:45:02 | INFO     | edgeguard.train |   -> New best validation loss: 0.151176. Best checkpoint saved.
+2026-07-12 08:45:20 | INFO     | edgeguard.train | Epoch 9/200 | train_loss=0.22707 val_loss=0.14037 | val_fade_acc=0.972 val_maint_acc=0.972 | lr=2.99e-04 | 18.6s
+2026-07-12 08:45:21 | INFO     | edgeguard.train |   -> New best validation loss: 0.140370. Best checkpoint saved.
+2026-07-12 08:45:39 | INFO     | edgeguard.train | Epoch 10/200 | train_loss=0.21769 val_loss=0.12621 | val_fade_acc=0.975 val_maint_acc=0.976 | lr=2.98e-04 | 18.3s
+2026-07-12 08:45:39 | INFO     | edgeguard.train |   -> New best validation loss: 0.126211. Best checkpoint saved.
+2026-07-12 08:45:57 | INFO     | edgeguard.train | Epoch 11/200 | train_loss=0.20867 val_loss=0.11918 | val_fade_acc=0.978 val_maint_acc=0.979 | lr=2.98e-04 | 17.9s
+2026-07-12 08:45:57 | INFO     | edgeguard.train |   -> New best validation loss: 0.119176. Best checkpoint saved.
+2026-07-12 08:46:13 | INFO     | edgeguard.train | Epoch 12/200 | train_loss=0.19558 val_loss=0.11771 | val_fade_acc=0.979 val_maint_acc=0.977 | lr=2.97e-04 | 15.9s
+2026-07-12 08:46:13 | INFO     | edgeguard.train |   -> New best validation loss: 0.117706. Best checkpoint saved.
+2026-07-12 08:46:29 | INFO     | edgeguard.train | Epoch 13/200 | train_loss=0.18682 val_loss=0.12315 | val_fade_acc=0.979 val_maint_acc=0.972 | lr=2.97e-04 | 15.9s
+2026-07-12 08:46:45 | INFO     | edgeguard.train | Epoch 14/200 | train_loss=0.18203 val_loss=0.12590 | val_fade_acc=0.976 val_maint_acc=0.973 | lr=2.96e-04 | 15.9s
+2026-07-12 08:47:01 | INFO     | edgeguard.train | Epoch 15/200 | train_loss=0.17654 val_loss=0.11499 | val_fade_acc=0.978 val_maint_acc=0.976 | lr=2.96e-04 | 16.0s
+2026-07-12 08:47:01 | INFO     | edgeguard.train |   -> New best validation loss: 0.114989. Best checkpoint saved.
+2026-07-12 08:47:17 | INFO     | edgeguard.train | Epoch 16/200 | train_loss=0.17143 val_loss=0.11472 | val_fade_acc=0.975 val_maint_acc=0.980 | lr=2.95e-04 | 16.0s
+2026-07-12 08:47:17 | INFO     | edgeguard.train |   -> New best validation loss: 0.114715. Best checkpoint saved.
+2026-07-12 08:47:33 | INFO     | edgeguard.train | Epoch 17/200 | train_loss=0.15923 val_loss=0.10635 | val_fade_acc=0.982 val_maint_acc=0.978 | lr=2.95e-04 | 15.8s
+2026-07-12 08:47:33 | INFO     | edgeguard.train |   -> New best validation loss: 0.106352. Best checkpoint saved.
+2026-07-12 08:47:50 | INFO     | edgeguard.train | Epoch 18/200 | train_loss=0.15611 val_loss=0.10821 | val_fade_acc=0.980 val_maint_acc=0.979 | lr=2.94e-04 | 17.2s
+2026-07-12 08:48:06 | INFO     | edgeguard.train | Epoch 19/200 | train_loss=0.15093 val_loss=0.11162 | val_fade_acc=0.977 val_maint_acc=0.979 | lr=2.93e-04 | 16.3s
+2026-07-12 08:48:22 | INFO     | edgeguard.train | Epoch 20/200 | train_loss=0.14604 val_loss=0.10282 | val_fade_acc=0.982 val_maint_acc=0.978 | lr=2.93e-04 | 15.9s
+2026-07-12 08:48:22 | INFO     | edgeguard.train |   -> New best validation loss: 0.102821. Best checkpoint saved.
+2026-07-12 08:48:39 | INFO     | edgeguard.train | Epoch 21/200 | train_loss=0.14068 val_loss=0.09541 | val_fade_acc=0.981 val_maint_acc=0.982 | lr=2.92e-04 | 16.4s
+2026-07-12 08:48:39 | INFO     | edgeguard.train |   -> New best validation loss: 0.095406. Best checkpoint saved.
+2026-07-12 08:48:55 | INFO     | edgeguard.train | Epoch 22/200 | train_loss=0.13994 val_loss=0.10137 | val_fade_acc=0.979 val_maint_acc=0.980 | lr=2.91e-04 | 16.4s
+2026-07-12 08:49:19 | INFO     | edgeguard.train | Epoch 23/200 | train_loss=0.13586 val_loss=0.09107 | val_fade_acc=0.981 val_maint_acc=0.985 | lr=2.90e-04 | 23.3s
+2026-07-12 08:49:19 | INFO     | edgeguard.train |   -> New best validation loss: 0.091070. Best checkpoint saved.
+2026-07-12 08:49:40 | INFO     | edgeguard.train | Epoch 24/200 | train_loss=0.13164 val_loss=0.09517 | val_fade_acc=0.982 val_maint_acc=0.980 | lr=2.90e-04 | 21.4s
+2026-07-12 08:49:57 | INFO     | edgeguard.train | Epoch 25/200 | train_loss=0.12833 val_loss=0.09528 | val_fade_acc=0.981 val_maint_acc=0.982 | lr=2.89e-04 | 16.8s
+2026-07-12 08:50:13 | INFO     | edgeguard.train | Epoch 26/200 | train_loss=0.12516 val_loss=0.09287 | val_fade_acc=0.980 val_maint_acc=0.983 | lr=2.88e-04 | 16.1s
+2026-07-12 08:50:29 | INFO     | edgeguard.train | Epoch 27/200 | train_loss=0.12124 val_loss=0.09659 | val_fade_acc=0.982 val_maint_acc=0.979 | lr=2.87e-04 | 16.1s
+2026-07-12 08:50:45 | INFO     | edgeguard.train | Epoch 28/200 | train_loss=0.11844 val_loss=0.09909 | val_fade_acc=0.981 val_maint_acc=0.980 | lr=2.86e-04 | 16.1s
+2026-07-12 08:51:01 | INFO     | edgeguard.train | Epoch 29/200 | train_loss=0.11758 val_loss=0.08849 | val_fade_acc=0.981 val_maint_acc=0.982 | lr=2.85e-04 | 16.0s
+2026-07-12 08:51:02 | INFO     | edgeguard.train |   -> New best validation loss: 0.088487. Best checkpoint saved.
+2026-07-12 08:51:18 | INFO     | edgeguard.train | Epoch 30/200 | train_loss=0.11676 val_loss=0.08824 | val_fade_acc=0.981 val_maint_acc=0.984 | lr=2.84e-04 | 16.1s
+2026-07-12 08:51:18 | INFO     | edgeguard.train |   -> New best validation loss: 0.088236. Best checkpoint saved.
+2026-07-12 08:51:34 | INFO     | edgeguard.train | Epoch 31/200 | train_loss=0.11196 val_loss=0.09408 | val_fade_acc=0.983 val_maint_acc=0.981 | lr=2.83e-04 | 16.1s
+2026-07-12 08:51:50 | INFO     | edgeguard.train | Epoch 32/200 | train_loss=0.11165 val_loss=0.08996 | val_fade_acc=0.981 val_maint_acc=0.982 | lr=2.82e-04 | 16.3s
+2026-07-12 08:52:07 | INFO     | edgeguard.train | Epoch 33/200 | train_loss=0.10764 val_loss=0.08661 | val_fade_acc=0.982 val_maint_acc=0.982 | lr=2.80e-04 | 16.6s
+2026-07-12 08:52:07 | INFO     | edgeguard.train |   -> New best validation loss: 0.086612. Best checkpoint saved.
+2026-07-12 08:52:23 | INFO     | edgeguard.train | Epoch 34/200 | train_loss=0.10824 val_loss=0.08653 | val_fade_acc=0.983 val_maint_acc=0.983 | lr=2.79e-04 | 16.1s
+2026-07-12 08:52:39 | INFO     | edgeguard.train | Epoch 35/200 | train_loss=0.10530 val_loss=0.08302 | val_fade_acc=0.985 val_maint_acc=0.982 | lr=2.78e-04 | 16.0s
+2026-07-12 08:52:39 | INFO     | edgeguard.train |   -> New best validation loss: 0.083016. Best checkpoint saved.
+2026-07-12 08:52:55 | INFO     | edgeguard.train | Epoch 36/200 | train_loss=0.10219 val_loss=0.08170 | val_fade_acc=0.982 val_maint_acc=0.985 | lr=2.77e-04 | 16.1s
+2026-07-12 08:52:55 | INFO     | edgeguard.train |   -> New best validation loss: 0.081703. Best checkpoint saved.
+2026-07-12 08:53:11 | INFO     | edgeguard.train | Epoch 37/200 | train_loss=0.10027 val_loss=0.08110 | val_fade_acc=0.984 val_maint_acc=0.984 | lr=2.75e-04 | 16.0s
+2026-07-12 08:53:11 | INFO     | edgeguard.train |   -> New best validation loss: 0.081102. Best checkpoint saved.
+2026-07-12 08:53:28 | INFO     | edgeguard.train | Epoch 38/200 | train_loss=0.09681 val_loss=0.08348 | val_fade_acc=0.981 val_maint_acc=0.984 | lr=2.74e-04 | 16.5s
+2026-07-12 08:53:44 | INFO     | edgeguard.train | Epoch 39/200 | train_loss=0.10020 val_loss=0.07977 | val_fade_acc=0.985 val_maint_acc=0.982 | lr=2.73e-04 | 16.8s
+2026-07-12 08:53:45 | INFO     | edgeguard.train |   -> New best validation loss: 0.079774. Best checkpoint saved.
+2026-07-12 08:54:01 | INFO     | edgeguard.train | Epoch 40/200 | train_loss=0.09655 val_loss=0.09819 | val_fade_acc=0.980 val_maint_acc=0.979 | lr=2.71e-04 | 16.5s
+2026-07-12 08:54:17 | INFO     | edgeguard.train | Epoch 41/200 | train_loss=0.09517 val_loss=0.07540 | val_fade_acc=0.984 val_maint_acc=0.986 | lr=2.70e-04 | 16.1s
+2026-07-12 08:54:17 | INFO     | edgeguard.train |   -> New best validation loss: 0.075397. Best checkpoint saved.
+2026-07-12 08:54:33 | INFO     | edgeguard.train | Epoch 42/200 | train_loss=0.09440 val_loss=0.07877 | val_fade_acc=0.985 val_maint_acc=0.983 | lr=2.69e-04 | 16.1s
+2026-07-12 08:54:50 | INFO     | edgeguard.train | Epoch 43/200 | train_loss=0.09118 val_loss=0.08417 | val_fade_acc=0.984 val_maint_acc=0.981 | lr=2.67e-04 | 16.1s
+2026-07-12 08:55:06 | INFO     | edgeguard.train | Epoch 44/200 | train_loss=0.09166 val_loss=0.07304 | val_fade_acc=0.987 val_maint_acc=0.985 | lr=2.66e-04 | 16.0s
+2026-07-12 08:55:06 | INFO     | edgeguard.train |   -> New best validation loss: 0.073040. Best checkpoint saved.
+2026-07-12 08:55:22 | INFO     | edgeguard.train | Epoch 45/200 | train_loss=0.08798 val_loss=0.07577 | val_fade_acc=0.985 val_maint_acc=0.985 | lr=2.64e-04 | 16.8s
+2026-07-12 08:55:39 | INFO     | edgeguard.train | Epoch 46/200 | train_loss=0.08607 val_loss=0.08639 | val_fade_acc=0.982 val_maint_acc=0.982 | lr=2.63e-04 | 16.1s
+2026-07-12 08:55:55 | INFO     | edgeguard.train | Epoch 47/200 | train_loss=0.08556 val_loss=0.07325 | val_fade_acc=0.985 val_maint_acc=0.985 | lr=2.61e-04 | 16.1s
+2026-07-12 08:56:11 | INFO     | edgeguard.train | Epoch 48/200 | train_loss=0.08441 val_loss=0.07581 | val_fade_acc=0.985 val_maint_acc=0.985 | lr=2.59e-04 | 16.2s
+2026-07-12 08:56:27 | INFO     | edgeguard.train | Epoch 49/200 | train_loss=0.08304 val_loss=0.07694 | val_fade_acc=0.986 val_maint_acc=0.984 | lr=2.58e-04 | 16.2s
+2026-07-12 08:56:43 | INFO     | edgeguard.train | Epoch 50/200 | train_loss=0.08229 val_loss=0.07414 | val_fade_acc=0.984 val_maint_acc=0.986 | lr=2.56e-04 | 16.0s
+2026-07-12 08:56:59 | INFO     | edgeguard.train | Epoch 51/200 | train_loss=0.08149 val_loss=0.06974 | val_fade_acc=0.985 val_maint_acc=0.987 | lr=2.55e-04 | 16.1s
+2026-07-12 08:56:59 | INFO     | edgeguard.train |   -> New best validation loss: 0.069741. Best checkpoint saved.
+2026-07-12 08:57:16 | INFO     | edgeguard.train | Epoch 52/200 | train_loss=0.07881 val_loss=0.07389 | val_fade_acc=0.984 val_maint_acc=0.986 | lr=2.53e-04 | 16.0s
+2026-07-12 08:57:32 | INFO     | edgeguard.train | Epoch 53/200 | train_loss=0.08034 val_loss=0.07969 | val_fade_acc=0.983 val_maint_acc=0.986 | lr=2.51e-04 | 16.2s
+2026-07-12 08:57:48 | INFO     | edgeguard.train | Epoch 54/200 | train_loss=0.07874 val_loss=0.09909 | val_fade_acc=0.982 val_maint_acc=0.978 | lr=2.49e-04 | 16.1s
+2026-07-12 08:58:04 | INFO     | edgeguard.train | Epoch 55/200 | train_loss=0.07786 val_loss=0.06603 | val_fade_acc=0.988 val_maint_acc=0.987 | lr=2.48e-04 | 16.0s
+2026-07-12 08:58:04 | INFO     | edgeguard.train |   -> New best validation loss: 0.066025. Best checkpoint saved.
+2026-07-12 08:58:20 | INFO     | edgeguard.train | Epoch 56/200 | train_loss=0.07511 val_loss=0.08189 | val_fade_acc=0.981 val_maint_acc=0.985 | lr=2.46e-04 | 16.0s
+2026-07-12 08:58:36 | INFO     | edgeguard.train | Epoch 57/200 | train_loss=0.07332 val_loss=0.07146 | val_fade_acc=0.985 val_maint_acc=0.985 | lr=2.44e-04 | 16.0s
+2026-07-12 08:58:52 | INFO     | edgeguard.train | Epoch 58/200 | train_loss=0.07310 val_loss=0.07108 | val_fade_acc=0.986 val_maint_acc=0.985 | lr=2.42e-04 | 16.1s
+2026-07-12 08:59:08 | INFO     | edgeguard.train | Epoch 59/200 | train_loss=0.07357 val_loss=0.06787 | val_fade_acc=0.986 val_maint_acc=0.987 | lr=2.40e-04 | 15.9s
+2026-07-12 08:59:24 | INFO     | edgeguard.train | Epoch 60/200 | train_loss=0.07287 val_loss=0.07304 | val_fade_acc=0.983 val_maint_acc=0.988 | lr=2.38e-04 | 16.0s
+2026-07-12 08:59:40 | INFO     | edgeguard.train | Epoch 61/200 | train_loss=0.06979 val_loss=0.06335 | val_fade_acc=0.988 val_maint_acc=0.987 | lr=2.36e-04 | 15.9s
+2026-07-12 08:59:40 | INFO     | edgeguard.train |   -> New best validation loss: 0.063355. Best checkpoint saved.
+2026-07-12 08:59:56 | INFO     | edgeguard.train | Epoch 62/200 | train_loss=0.07133 val_loss=0.06415 | val_fade_acc=0.986 val_maint_acc=0.987 | lr=2.35e-04 | 16.0s
+2026-07-12 09:00:12 | INFO     | edgeguard.train | Epoch 63/200 | train_loss=0.06921 val_loss=0.07741 | val_fade_acc=0.983 val_maint_acc=0.986 | lr=2.33e-04 | 16.2s
+2026-07-12 09:00:29 | INFO     | edgeguard.train | Epoch 64/200 | train_loss=0.06818 val_loss=0.07127 | val_fade_acc=0.984 val_maint_acc=0.987 | lr=2.31e-04 | 16.8s
+2026-07-12 09:00:45 | INFO     | edgeguard.train | Epoch 65/200 | train_loss=0.06665 val_loss=0.06731 | val_fade_acc=0.986 val_maint_acc=0.988 | lr=2.29e-04 | 16.0s
+2026-07-12 09:01:03 | INFO     | edgeguard.train | Epoch 66/200 | train_loss=0.06794 val_loss=0.06574 | val_fade_acc=0.986 val_maint_acc=0.988 | lr=2.27e-04 | 17.9s
+2026-07-12 09:01:20 | INFO     | edgeguard.train | Epoch 67/200 | train_loss=0.06689 val_loss=0.07322 | val_fade_acc=0.986 val_maint_acc=0.986 | lr=2.25e-04 | 16.9s
+2026-07-12 09:01:39 | INFO     | edgeguard.train | Epoch 68/200 | train_loss=0.06703 val_loss=0.07037 | val_fade_acc=0.985 val_maint_acc=0.987 | lr=2.23e-04 | 18.7s
+2026-07-12 09:01:55 | INFO     | edgeguard.train | Epoch 69/200 | train_loss=0.06326 val_loss=0.07151 | val_fade_acc=0.984 val_maint_acc=0.987 | lr=2.20e-04 | 16.0s
+2026-07-12 09:02:11 | INFO     | edgeguard.train | Epoch 70/200 | train_loss=0.06563 val_loss=0.06425 | val_fade_acc=0.987 val_maint_acc=0.987 | lr=2.18e-04 | 15.6s
+2026-07-12 09:02:27 | INFO     | edgeguard.train | Epoch 71/200 | train_loss=0.06182 val_loss=0.07052 | val_fade_acc=0.985 val_maint_acc=0.986 | lr=2.16e-04 | 16.1s
+2026-07-12 09:02:43 | INFO     | edgeguard.train | Epoch 72/200 | train_loss=0.06225 val_loss=0.06881 | val_fade_acc=0.986 val_maint_acc=0.986 | lr=2.14e-04 | 15.8s
+2026-07-12 09:02:59 | INFO     | edgeguard.train | Epoch 73/200 | train_loss=0.06051 val_loss=0.07364 | val_fade_acc=0.984 val_maint_acc=0.987 | lr=2.12e-04 | 15.9s
+2026-07-12 09:03:19 | INFO     | edgeguard.train | Epoch 74/200 | train_loss=0.06051 val_loss=0.06454 | val_fade_acc=0.986 val_maint_acc=0.988 | lr=2.10e-04 | 20.5s
+2026-07-12 09:03:43 | INFO     | edgeguard.train | Epoch 75/200 | train_loss=0.05841 val_loss=0.07114 | val_fade_acc=0.986 val_maint_acc=0.986 | lr=2.08e-04 | 23.4s
+2026-07-12 09:04:04 | INFO     | edgeguard.train | Epoch 76/200 | train_loss=0.06173 val_loss=0.06535 | val_fade_acc=0.986 val_maint_acc=0.988 | lr=2.06e-04 | 21.5s
+2026-07-12 09:04:26 | INFO     | edgeguard.train | Epoch 77/200 | train_loss=0.05721 val_loss=0.07282 | val_fade_acc=0.986 val_maint_acc=0.986 | lr=2.03e-04 | 21.5s
+2026-07-12 09:04:47 | INFO     | edgeguard.train | Epoch 78/200 | train_loss=0.05889 val_loss=0.06685 | val_fade_acc=0.987 val_maint_acc=0.987 | lr=2.01e-04 | 21.3s
+2026-07-12 09:05:08 | INFO     | edgeguard.train | Epoch 79/200 | train_loss=0.05841 val_loss=0.07432 | val_fade_acc=0.983 val_maint_acc=0.986 | lr=1.99e-04 | 20.9s
+2026-07-12 09:05:40 | INFO     | edgeguard.train | Epoch 80/200 | train_loss=0.05675 val_loss=0.06580 | val_fade_acc=0.986 val_maint_acc=0.987 | lr=1.97e-04 | 32.2s
+2026-07-12 09:06:10 | INFO     | edgeguard.train | Epoch 81/200 | train_loss=0.05657 val_loss=0.06803 | val_fade_acc=0.986 val_maint_acc=0.987 | lr=1.94e-04 | 29.7s
+2026-07-12 09:06:10 | INFO     | edgeguard.train | Early stopping triggered after 20 epochs without improvement (patience=20).
+2026-07-12 09:06:10 | INFO     | edgeguard.train | Loading best checkpoint for final test-set evaluation.
+2026-07-12 09:06:18 | INFO     | edgeguard.train | [TEST] Brake Health Regression -> MAE=0.687%, RMSE=0.926%, R2=0.9993
+2026-07-12 09:06:18 | INFO     | edgeguard.train | [TEST] Fade Risk Classification -> Accuracy=0.9874, Macro-F1=0.9868
+2026-07-12 09:06:18 | INFO     | edgeguard.train | 
+              precision    recall  f1-score   support
+
+         Low       0.99      0.99      0.99       402
+      Medium       0.99      0.98      0.98      2261
+        High       0.99      0.99      0.99      4754
+   Very High       0.98      0.98      0.98      3358
+    Critical       0.99      0.98      0.99      1116
+
+    accuracy                           0.99     11891
+   macro avg       0.99      0.99      0.99     11891
+weighted avg       0.99      0.99      0.99     11891
+
+2026-07-12 09:06:18 | INFO     | edgeguard.train | [TEST] Maintenance Classification -> Accuracy=0.9867, Macro-F1=0.9666
+2026-07-12 09:06:18 | INFO     | edgeguard.train | 
+                     precision    recall  f1-score   support
+
+          No Action       0.99      0.99      0.99      1745
+       Inspect Soon       0.98      0.97      0.97       704
+ Replace Brake Pads       0.98      0.98      0.98      2416
+Replace Brake Fluid       1.00      1.00      1.00      5891
+ Replace Brake Disc       0.93      0.90      0.92       187
+  Immediate Service       0.95      0.95      0.95       482
+     Emergency Stop       0.94      0.97      0.96       466
+
+           accuracy                           0.99     11891
+          macro avg       0.97      0.97      0.97     11891
+       weighted avg       0.99      0.99      0.99     11891
+
+2026-07-12 09:06:22 | INFO     | edgeguard.train | Training curves saved to D:\Tata Hackathon\Brake AI v3\Model\artifacts\plots
+2026-07-12 09:06:22 | INFO     | edgeguard.train | Training complete.

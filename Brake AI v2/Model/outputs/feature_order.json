@@ -1,0 +1,13 @@
+[
+  "brake_pad_thickness_mm",
+  "brake_disc_temperature_c",
+  "brake_fluid_level_pct",
+  "brake_fluid_temperature_c",
+  "hydraulic_pressure_bar",
+  "vehicle_speed_kmh",
+  "wheel_speed_kmh",
+  "brake_pedal_force_pct",
+  "ambient_temperature_c",
+  "total_mileage_km",
+  "brake_usage_count"
+]

@@ -1,0 +1,11 @@
+EdgeGuard AI - Tyre Health Prediction - Test Set Classification Report
+======================================================================
+
+              precision    recall  f1-score   support
+
+   Defective     0.9798    0.9417    0.9604       103
+        Good     0.9310    0.9759    0.9529        83
+
+    accuracy                         0.9570       186
+   macro avg     0.9554    0.9588    0.9567       186
+weighted avg     0.9580    0.9570    0.9571       186
